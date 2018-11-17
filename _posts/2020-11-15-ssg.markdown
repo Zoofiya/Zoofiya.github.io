@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "What about static site generators then?"
+date:   2018-11-15 07:48:17 -0600
+categories: jekyll update
+---
+
+What do you think of static site generators?
+        What type of projects are they suitable for?

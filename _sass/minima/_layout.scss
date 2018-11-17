@@ -3,7 +3,6 @@
  */
 .site-header {
   border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -15,13 +14,11 @@
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
-  margin-bottom: 0;
+  margin-bottom: 10%;
+  padding-top: 7%;
   float: left;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
+  font-family: fantasy;
+  font-size: 80px;
 }
 
 .site-nav {
@@ -100,7 +97,12 @@
   }
 }
 
-
+.home {
+  text-align: center;
+}
+.rss-subscribe {
+  display: none;
+}
 
 /**
  * Site footer
@@ -111,8 +113,7 @@
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  display: none ;
 }
 
 .contact-list,
@@ -142,6 +143,7 @@
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
   width:         calc(20% - (#{$spacing-unit} / 2));
+  //float: right;
 }
 
 .footer-col-3 {
@@ -172,6 +174,7 @@
 
 
 
+
 /**
  * Page content
  */
@@ -186,6 +189,7 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  font-size: 26px;
 }
 
 .post-list {
@@ -214,7 +218,6 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
-  color: rgb(185, 219, 33);
 }
 
 .post-title {
