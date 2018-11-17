@@ -172,7 +172,12 @@
   }
 }
 
-
+.img-responsive {
+  width: 300px;
+  @include media-query($on-palm) {
+    width: auto;
+  }
+}
 
 
 /**

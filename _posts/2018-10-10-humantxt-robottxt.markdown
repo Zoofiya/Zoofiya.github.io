@@ -9,3 +9,4 @@ What is robots.txt and how have you configure it for your site?
 
 What is humans.txt and how have you configure it for your site?
 
+[Next post]({% post_url 2018-11-15-ssg %})

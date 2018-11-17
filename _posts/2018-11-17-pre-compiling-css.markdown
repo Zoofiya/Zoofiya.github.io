@@ -11,3 +11,5 @@ What do you think of pre-compiling your CSS?
         Compare to regular CSS
         Which techniques did you use?
         Pros and cons?
+
+[Previous post]({% post_url 2018-11-16-comment-and-open-graph %})

@@ -3,6 +3,9 @@ layout: page
 title: About me
 permalink: /about/
 ---
+<!-- https://dev-notes.eu/2016/01/images-in-kramdown-jekyll/ -->
+![pic1](/pics/pic1.jpg){:class="img-responsive"}
+
 Sofia är mitt tilltalsnamn men jag heter även Natha och kallas kort för Fia av familjen. Jag föddes i Lund och har sedan min uppväxt flyttat norrut ända fram till 1 september 2018. Då hamnade jag i Kalmar. 
 
 Jag är väldigt öppen som person, öppen för nya typer av människor och öppen för att lära mig allt nytt runt omkring mig eftersom att jag är så nyfiken. Jag tror inte på att allt är möjligt, men är fast troende på att det mesta är. Därmed älskar jag uppmaningar och blir överlycklig när jag gör framgång, stora som små.

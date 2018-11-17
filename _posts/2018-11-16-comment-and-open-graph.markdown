@@ -8,4 +8,6 @@ categories: jekyll update
 How did you implements comments to blog posts
 What is Open Graph and how do you make use of it?
 
+[Previous post]({% post_url 2018-11-15-ssg %})
 
+[Next post]({% post_url 2018-11-17-pre-compiling-css %})
