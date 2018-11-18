@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  min-height: $spacing-unit * 1.865;
+  //border-top: 5px solid $grey-color-dark;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -36,7 +35,6 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
-
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
@@ -50,7 +48,17 @@
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
-    text-align: right;
+    text-align: center; 
+    background: transparent;
+    position: relative;
+    margin: 20px;
+    box-shadow: // Adding dimension with box-shadow for small screen https://css-tricks.com/snippets/css/multiple-borders/
+    0 0 0 5px hsl(0, 0%, 50%),
+    0 0 0 10px hsl(0, 0%, 60%),
+    0 0 0 15px hsl(0, 0%, 70%),
+    0 0 0 20px hsl(0, 0%, 80%),
+    0 0 0 25px hsl(0, 0%, 90%);
+    min-height: $spacing-unit * 1.865;
 
     label[for="nav-trigger"] {
       display: block;
@@ -187,6 +195,9 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  border: 30px solid pink;
+  height: 40vh;
+  border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pink-doily-bdr.png") 30; // https://css-tricks.com/almanac/properties/b/border-image/
 }
 
 .page-heading {
@@ -205,6 +216,7 @@
   > li {
     margin-bottom: $spacing-unit;
   }
+  
 }
 
 .post-meta {

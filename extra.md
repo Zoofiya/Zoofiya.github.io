@@ -5,7 +5,8 @@ permalink: /extra/
 ---
 <!-- http://www.beingy.net/blog/embed-youtube-video-in-jekyll/ -->
 
-<h2>Here are some of my favorite Youtubers:</h2>
+## Here are some of my favorite Youtubers:
+
 
 {% include youtube_embed.html id="lmwGOikAXO8" %}
 

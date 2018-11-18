@@ -5,10 +5,15 @@ date:   2018-11-15 07:48:17 -0600
 categories: jekyll update
 ---
 
-<h2>What about static site generators then?</h2>
-What do you think of static site generators?
-        What type of projects are they suitable for?
+## What about static site generators then?
 
+#### What do you think of static site generators?
+I have come to realise that static site generators are kind of handy when you've explored more of how It's working. At first It was, frankly speaking, kind of overwhelming when I opened up my project folder because everything has already been made in advance. Now I see how easy It is to write a long text in markdown without manually put It in HTML-elements. I have of course read about possible disadvantages with Static site generators but have yet to stumble upon such difficulties to be able to express personal opinions on that.
+
+#### What type of projects are they suitable for?
+Static site generators are suitable for projects where you constantly add changes and where you aqquire speed and are not in need of a database. Why the client could instantly get the required content is mostly because the server does not need to run any databases for every request that he user makes. Usually the whole site and all content is run through but with static site generators our finished site is put up on the seerver so It only needs to find the requested file and return It. 
+
+Using static site generators, in this case jekyll, enables version control. For instance, git makes It possible to track the changes of the site and create branches, which is very useful when there are many developers that work with the same project. So It would be advantagous to use static site generators in projects where you might want to collaborate/allow changes, either openly with strangers on github or just your developer team.
 
 [Previous post]({% post_url 2018-10-10-humantxt-robottxt %})
 <a href="http://localhost:4000/jekyll/update/2018/11/16/comment-and-open-graph.html" class="next">Next post</a>
