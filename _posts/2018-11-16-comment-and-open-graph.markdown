@@ -15,5 +15,4 @@ categories: jekyll update
 #### What is Open Graph and how do you make use of it?
 
 [Previous post]({% post_url 2018-11-15-ssg %})
-
 <a href="http://localhost:4000/jekyll/update/2018/11/17/pre-compiling-css.html" class="next">Next post</a>
