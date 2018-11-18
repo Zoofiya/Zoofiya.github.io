@@ -1,0 +1,16 @@
+/* TEAM */
+    UI/Web designer,
+    Graphics,
+    Developer,
+    Author: Sofia Luangrath
+    Twitter: Sofia_twitter
+    Location: Kalmar, Sweden
+
+/* THANKS */
+Name: Johan Leitet https://github.com/1dv022/jekyll-boilerplate
+
+
+/* SITE */
+    Last update:2018/11/19
+    Doctype:HTML5
+    Software: Visual Studio Code
