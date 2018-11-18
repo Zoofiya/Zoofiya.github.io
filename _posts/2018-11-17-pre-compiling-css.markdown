@@ -4,6 +4,7 @@ title:  "Pre-compiling CSS?"
 date:   2018-11-17 07:48:17 -0600
 categories: jekyll update
 ---
+<h2>Pre-compiling CSS?</h2>
 
 our blog page should have multiple posts (Swedish or English) and atleast one post where you reflects over the following:
 

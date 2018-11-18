@@ -3,17 +3,16 @@ layout: page
 title: Extra
 permalink: /extra/
 ---
+<!-- http://www.beingy.net/blog/embed-youtube-video-in-jekyll/ -->
 
-Here are some of my favorite Youtube channels:
+<h2>Here are some of my favorite Youtubers:</h2>
 
 Superwoman
-
-https://www.youtube.com/user/IISuperwomanII
+{% include youtube_embed.html id="lmwGOikAXO8" %}
 
 SAS-ASMR(she's thai, and she's cool)
+{% include youtube_embed.html id="9PChc9Jv-LE" %}
 
-https://www.youtube.com/channel/UCp4LfMtDfoa29kTlLnqQ5Mg
 
 LINH-ASMR(The girl who eats scary stuff)
-
-https://www.youtube.com/channel/UCNMpL6nzo_kOftvXOugQeBQ
+{% include youtube_embed.html id="7zI3v5thvM8" %}
