@@ -6,10 +6,12 @@ categories: jekyll update
 comments: true
 ---
 ## Comments and Open graph
+
 #### How did you implement comments to blog posts?
 I chose to use Disqus and to create comment boxes I needed to do as following(there):
-1. First and foremost, I had to sign up for a Disqus account. It's within your account all of the comments are being sent and managed by me. I could switch from one site to another that I have registered in my account. I then followed the guide on their site and selected jekyll as my platform.  
-2. The installing process to jekyll is the next step. In my blog posts' front matters I had to add the key comments and set the value to true as following: 
++ First and foremost, I had to sign up for a Disqus account. It's within your account all of the comments are being sent and managed by me. I could switch from one site to another that I have registered in my account. I then followed the guide on their site and selected jekyll as my platform.  
+
++ The installing process to jekyll is the next step. The first step in this process was to add a key to my blog posts' front matters where I want comment sections. I had to add the key *"comments"* and set the value to *"true"* as following: 
 
 {% highlight python %}
 ---
@@ -19,11 +21,18 @@ comments: true
 ---
 {% endhighlight %}
 
-3. 
-4. 
-5. 
++ The last part of the installing process was to check that a [**Universal embed code**](https://help.disqus.com/installation/universal-embed-code) was already added to to my file disqus_comments.html between an if and an else statement.
 
++ Now, when It came to configuration I just needed to change a few things in my disqus_comments.html. I needed to substitute the EXAMPLE to my own shortname(Zoofiyas) that I defined on my account on Disqus when I linked my site. Then I had to define **this.page.url** and **this.page.identifier** as the URL for my site.
+
++ When I was done I just added some changes on Community & Comments Configuration my Disqus account.
+
+
+<br><br/>
 #### What is Open Graph and how do you make use of it?
++ I added some meta tags in my head.html file.
+{% highlight python %}
+{% endhighlight %}
 
 [Previous post]({% post_url 2018-11-15-ssg %})
 <a href="http://localhost:4000/jekyll/update/2018/11/17/pre-compiling-css.html" class="next">Next post</a>
