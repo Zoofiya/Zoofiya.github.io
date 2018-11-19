@@ -30,8 +30,14 @@ comments: true
 
 <br><br/>
 #### What is Open Graph and how do you make use of it?
-+ I added some meta tags in my head.html file.
+Open graph adds riches to your link when you link you website on social medias for instance. Facebook originally founded invented It and now It is used mostly everywhere. Using open graph could for example show an image of the page when the site is being linked. This is good if you want to increase your click-through rate of a page. It gives the viewer a brief view of the page and makes usually It more attracting to click on It. In other words, It is a way to control how social media shares and shows your site and influences the social media traffic in a benificial way.
+
+I added some meta tags in my head.html file. To know what to put as my url I first had to push up my site on Github pages in my new repository.
 {% highlight python %}
+  <meta property="og:title" content="Zoofiyas" />
+  <meta property="og:image" content="https://zoofiya.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zoofiya.github.io/" />
 {% endhighlight %}
 
 [Previous post]({% post_url 2018-11-15-ssg %})
