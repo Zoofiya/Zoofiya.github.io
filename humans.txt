@@ -1,8 +1,6 @@
 /* TEAM */
-    UI/Web designer,
-    Graphics,
-    Developer,
     Author: Sofia Luangrath
+    Site: sl223nh@student.lnu.se
     Twitter: Sofia_twitter
     Location: Kalmar, Sweden
 

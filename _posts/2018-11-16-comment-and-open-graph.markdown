@@ -3,6 +3,7 @@ layout: post
 title:  "Comments and Open graph"
 date:   2018-11-16 07:48:17 -0600
 categories: jekyll update
+comments: true
 ---
 ## Comments and Open graph
 #### How did you implements comments to blog posts?

@@ -3,6 +3,7 @@ layout: post
 title:  "What about static site generators then?"
 date:   2018-11-15 07:48:17 -0600
 categories: jekyll update
+comments: true
 ---
 
 ## What about static site generators then?

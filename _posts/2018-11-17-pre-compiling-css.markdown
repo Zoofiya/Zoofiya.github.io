@@ -3,6 +3,7 @@ layout: post
 title:  "Pre-compiling CSS?"
 date:   2018-11-17 07:48:17 -0600
 categories: jekyll update
+comments: true
 ---
 ## Pre-compiling CSS?
 
