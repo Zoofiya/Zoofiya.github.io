@@ -41,4 +41,4 @@ I added some meta tags in my head.html file. To know what to put as my url I fir
 {% endhighlight %}
 
 [Previous post]({% post_url 2018-11-15-ssg %})
-<a href="http://localhost:4000/jekyll/update/2018/11/17/pre-compiling-css.html" class="next">Next post</a>
+<a href="https://zoofiya.github.io/jekyll/update/2018/11/17/pre-compiling-css.html" class="next">Next post</a>

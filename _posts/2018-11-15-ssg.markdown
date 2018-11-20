@@ -18,4 +18,4 @@ Static site generators are suitable for projects where you constantly add change
 Using static site generators, in this case jekyll, enables version control. For instance, git makes It possible to track the changes of the site and create branches, which is very useful when there are many developers that work with the same project. So It would be advantagous to use static site generators in projects where you might want to collaborate/allow changes, either openly with strangers on github or just your developer team.
 
 [Previous post]({% post_url 2018-10-10-humantxt-robottxt %})
-<a href="http://localhost:4000/jekyll/update/2018/11/16/comment-and-open-graph.html" class="next">Next post</a>
+<a href="https://zoofiya.github.io/jekyll/update/2018/11/16/comment-and-open-graph.html" class="next">Next post</a>

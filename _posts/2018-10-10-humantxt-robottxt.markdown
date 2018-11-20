@@ -20,4 +20,4 @@ A humans.txt is a text-file where all contributors to the site is listed. In suc
 
 
 
-<a href="http://localhost:4000/jekyll/update/2018/11/15/ssg.html" class="next">Next post</a>
+<a href="https://zoofiya.github.io/jekyll/update/2018/11/15/ssg.html" class="next">Next post</a>
