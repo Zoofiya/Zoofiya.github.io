@@ -17,8 +17,3 @@ There are something called variables that I've been using that is different from
 It has always bothered me that we could not do nesting in CSS. With Sass I was able to do nesting and skip reference to the same tags over and over.
 
 I also got to try some mixins. Although It was similarly set up and used like the variables, I think It took me more time to understand It. I had to combine the way of thinking in functions with my knowledge of CSS usage. Thereafter, It became somewhat more enjoyable. 
-
-
-
-
-[Previous post]({% post_url 2018-11-16-comment-and-open-graph %})

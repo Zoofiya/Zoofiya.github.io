@@ -40,5 +40,4 @@ I added some meta tags in my head.html file. To know what to put as my url I fir
   <meta property="og:url" content="https://zoofiya.github.io/" />
 {% endhighlight %}
 
-[Previous post]({% post_url 2018-11-15-ssg %})
-<a href="https://zoofiya.github.io/jekyll/update/2018/11/17/pre-compiling-css.html" class="next">Next post</a>
+[**Next post**]({% post_url 2018-11-17-pre-compiling-css %})

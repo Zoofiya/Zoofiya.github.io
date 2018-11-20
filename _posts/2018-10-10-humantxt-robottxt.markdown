@@ -18,6 +18,4 @@ Mine is simply saying that my pictures shall not be indexed in Google-images. Ot
 #### What is humans.txt and how have you configured It for your site?
 A humans.txt is a text-file where all contributors to the site is listed. In such a file you could expect the role of the person, name, twitter, contact and location. The date, main language and softwares used for the project are also usually found here. This text-file is often located in the head-tag on the site. These could also be found in my humans.txt for this site. After creating the file, I linked It to my head.html in a folder called includes where HTML-files such as for footer and header are located. This way my humans.txt could be found in the head-tag of the site.
 
-
-
-<a href="https://zoofiya.github.io/jekyll/update/2018/11/15/ssg.html" class="next">Next post</a>
+[**Next post**]({% post_url 2018-11-15-ssg %})
